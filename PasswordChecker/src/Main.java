@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Ошибка: " + e.getMessage());
             System.out.println("Программа завершена");
             scanner.close();
-            return;  // Завершаем программу
+            return;
         } catch (NumberFormatException e) {
             System.out.println("Ошибка: введено не число");
             System.out.println("Программа завершена");
